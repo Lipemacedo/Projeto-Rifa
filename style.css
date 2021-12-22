@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 20px;
+    text-align: center;
+
+    background: rgba(245, 13, 13, 0.76);
+}
+header h1{
+    font: normal 2rem verdana;
+    color: white;
+}
+main{
+    overflow: hidden;
+}
+.organizada{
+    list-style-position: inside;
+}
+ .participantes{
+    font: normal 1.4rem  sans-serif;
+    text-transform: capitalize;
+ }
+ .rifa{
+     width: 100%;
+     height: auto;
+     padding: 20px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-direction: column-reverse;
+ }
+ .participante{
+    font: normal 2rem  sans-serif;
+ }
+ .vencedor{
+     width: 100%;
+     height: auto;
+     align-items: center;
+     display: flex;
+     justify-content: center;
+     padding: 20px;
+     border: 2px solid black;
+ }
+ .sortear{
+     padding: 10px;
+     margin: 10px;
+     background: white;
+     border: 2px solid black;
+     border-radius: 10px;
+     font: normal 2rem sans-serif;
+ }
